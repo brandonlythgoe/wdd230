@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: blanchedalmond;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: blue;
+    background-color: lightblue;
     color: white;
     border: 2px black solid;
 }
@@ -34,7 +35,7 @@ main h2{
 footer{
 
     align-items: center;
-    background-color: blue;
+    background-color: lightblue;
     color: white;
     border: 2px black solid;
     text-align: center;
