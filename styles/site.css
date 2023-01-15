@@ -5,11 +5,14 @@ body{
 }
 
 header {
+    width: 640px;
     display: flex;
-    align-items: center;
+    align-content: center;
     background-color: lightblue;
     color: white;
     border: 2px black solid;
+    margin: auto;
+    
 }
 header img {
     margin: 1rem;
@@ -17,6 +20,7 @@ header img {
 }
 header h1{
     text-align: center;
+    align-items: center;
 }
 
 header div:nth-child(2){
@@ -26,6 +30,7 @@ header div:nth-child(2){
 #content{
     margin: 0 auto;
     width: 800 px;
+    padding-bottom: 10rem;
 }
 
 main h2{
@@ -33,11 +38,14 @@ main h2{
 }
 
 footer{
-
-    align-items: center;
+    width: 640px;
+    margin: auto;
+    align-content: center;
     background-color: lightblue;
     color: white;
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
+    
+
 }
