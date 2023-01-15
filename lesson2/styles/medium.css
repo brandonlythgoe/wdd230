@@ -16,7 +16,7 @@
  }
  .code{
     grid-area: "s3";
-    
+    margin-top: 136px;
  }
  
 }
