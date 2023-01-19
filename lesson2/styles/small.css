@@ -40,7 +40,7 @@ h4{
     background-color: rgb(108, 139, 183);
     width: 90%;
 }
-#link{
+.link{
     margin: auto;
     text-align: center;
     padding-bottom: .75rem;
