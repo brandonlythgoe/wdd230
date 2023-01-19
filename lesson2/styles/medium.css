@@ -4,18 +4,18 @@
     grid-template-areas:"s1 s2"
                         "s3 s3";
    
- }  
+ }   
  
  .sports{
-    grid-area: "s1";
+    grid-area: s1;
     
  } 
  .donuts{
-    grid-area: "s2";
+    grid-area: s2;
     margin-top: 136px;
  }
  .code{
-    grid-area: "s3";
+    grid-area: s3;
     margin-top: 136px;
  }
  

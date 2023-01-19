@@ -1,0 +1,25 @@
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+nav ul li{
+    border: 1px solid black;
+    text-align: center;
+    min-width: 210px;
+}
+nav ul li:hover{
+    background-color: aqua;
+}
+
+
+nav a{
+    display: block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+

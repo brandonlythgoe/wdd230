@@ -4,7 +4,7 @@ body{
     background-color: white;
     margin: 0 auto;
 }
-h1{
+h1{ 
     margin: auto;
     /* display: flex; */
     align-content: center;
