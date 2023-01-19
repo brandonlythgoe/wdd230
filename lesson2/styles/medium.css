@@ -1,24 +1,24 @@
 @media screen and (min-width: 900px){
- body{
-    display: grid;
-    grid-template-areas:"s1 s2"
-                        "s3 s3";
+   body{
+      display: grid;
+      grid-template-areas:"s1 s2"
+                          "s3 s3";
+     
+   }   
    
- }   
- 
- .sports{
-    grid-area: s1;
-    
- } 
- .donuts{
-    grid-area: s2;
-    margin-top: 136px;
- }
- .code{
-    grid-area: s3;
-    margin-top: 136px;
- }
- 
-}
-
+   .sports{
+      grid-area: s1;
+      
+   } 
+   .donuts{
+      grid-area: s2;
+      margin-top: 136px;
+   }
+   .code{
+      grid-area: s3;
+      margin-top: 136px;
+   }
+   
+  }
+  
 
