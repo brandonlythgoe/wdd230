@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 nav ul{
     display: flex;
     flex-direction: column;
@@ -11,7 +13,7 @@ nav ul li{
     min-width: 210px;
 }
 nav ul li:hover{
-    background-color: aqua;
+    background-color:  #698996;
 }
 
 
@@ -22,4 +24,15 @@ nav a{
     color: black;
 }
 
+.intro{
+    text-align: Center;
+}
+
+.main{
+    text-align: center;
+}
+
+#joe{
+    font: 100px;
+}
 
