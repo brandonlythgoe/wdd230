@@ -1,0 +1,15 @@
+@media screen and (min-width: 940px){
+
+     nav ul{
+        display: flex;
+        justify-content: space-around;
+        
+    
+    }
+    nav a{
+        text-decoration: none;
+        text-align: center;
+        padding: 35px;
+    } 
+}
+
