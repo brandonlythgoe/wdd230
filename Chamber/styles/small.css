@@ -20,7 +20,6 @@ nav ul{
     list-style: none;
     padding-inline-start: 0px;
     font-family: "raleway";
-    color: white;
     background-color: #053C5E;   
 }
 
@@ -31,8 +30,8 @@ nav ul li{
     color: white;
 }
 nav ul li:hover{
-    background-color:  #709176;
-    color: white;
+    background-color:#DB4C40;
+    color: black;
 }
 
 
@@ -49,7 +48,7 @@ nav a{
 
 footer{
     background-color: #709176;
-    color: white;
+    color: black;
 }
 body{
     background-color: #F9EDCC;
@@ -57,9 +56,11 @@ body{
 
 main{
     display: grid;
-    grid-template-areas:"s1 s1"
-                        "s2 s2"
-                        "s3 s3";
+    grid-template-areas:"s1"
+                        "s2"
+                        "s3"
+                        "s4"
+                        "s5";
     
 }
 #a{
@@ -70,5 +71,10 @@ main{
     grid-area: s2;
 }
 #c{
-    grid-column: s3;
+    grid-area: s3;
+}
+#d{
+    grid-area: s4;
+}
+#e{ grid-area: s5;
 }
