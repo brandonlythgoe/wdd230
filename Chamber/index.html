@@ -9,6 +9,7 @@
     <link rel = "stylesheet" href = "./styles/big.css">
     <link rel=" icon" href="./favicon.ico">
     <script defer src = "./scripts/script.js" ></script>
+    <script defer src=" ./scripts/main.js"></script>
     <title>Chamber Of Commerce</title>
 </head>
 <body>
@@ -16,14 +17,20 @@
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/red.png" alt="Gilbert Logo">
         </a>
-         <a id="fb" href="https://facebook.com"">
+        <h1>Gilbert Chamber Of Commerce</h1>
+         <a id="fb" href="https://facebook.com">
             <img class="logo" src="images/facebook.png" alt="Facebook Logo">
         </a>
          <a id="insta" href="https://instagram.com">
             <img class="logo" src="images/instagram.png" alt="Instagram Logo">
         </a>
-        <h1>Gilbert Chamber Of Commerce</h1>
+        
+    </header>
         <nav>
+            <button id="hamburger-menu">
+                <span id="menu-closed">&equiv;</span>
+                <span id="menu-open">X</span>
+            </button>
             <ul>
                 <li class="active"><a href="index.html">Home Page </a></li>
                 <li><a href="discover.html">Discover</a></li>
@@ -32,15 +39,17 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1> Date </h1>
-    </header>
-    <main>
+        <div class="header-today"><p></p></div>
+    
+    <main class = main>
         <div id="a"><p> Hero With Site Name and Call to Action</p></div>
         <div id="b"><p> Event </p> </div>
         <div id="c"> <p> Weather</p> </div>
         <div id="d"><p> News Release </p> </div>
-        <div id="e"><p> Spotlight 1 </p> </div>
-        <div id="f"><p> Spotlight 2 </p> </div>
+        <div id = spotlights>
+            <div id="e"><p> Spotlight 1 </p> </div>
+            <div id="f"><p> Spotlight 2 </p> </div>
+        </div>
     </main>
     <footer>
         <a id="logo_link" href="index.html">
@@ -56,7 +65,9 @@
         <p>&copy; Gilbert Arizona Chamber Of Commerce</p>
         <p> Brandon Lythgoe</p>
         <p> WDD230 Project</p>
-        <p>last modification:</p>
+        <hr id="line"/>
+        <div><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
     </footer>
+    
 </body>
 </html>
