@@ -16,6 +16,9 @@ header{
 #fb,#insta{
     grid-column: 3;
 }
+#fb{
+  padding-bottom: 0;
+}
 
 h1{
     grid-column: 2;
@@ -23,10 +26,10 @@ h1{
     text-align: center;
 }
 
-nav ul #menu-open.menu-active{
-    display: flex;
+nav ul {
+    display: inline;
+    flex-direction: column;
     list-style: none;
-    padding-inline-start: 0px;
     font-family: "raleway";
     background-color: #053C5E;   
     
@@ -34,6 +37,7 @@ nav ul #menu-open.menu-active{
 
 nav ul li{
     border: 1px solid black;
+    padding: 1rem;
     text-align: center;
     min-width: 210px;
     color: white;
@@ -46,7 +50,7 @@ nav ul li:hover{
 
 
 nav a {
-    display: flex;
+  
     justify-content: space-between;
     margin: 0.5rem;
     text-decoration: none;
@@ -140,7 +144,7 @@ body{
     display: none;
   }
   
-  #join, #spotlight3 {
+  #j, #g {
     display:none;
   }
 
