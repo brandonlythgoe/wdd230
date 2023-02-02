@@ -1,0 +1,40 @@
+@media screen and (min-width: 1000px){
+    .main{
+        display:grid;
+        grid-template-areas: "e h h sp"
+                             "w h h sp"
+                             "j n n sp"
+                             
+                             
+    }
+    #a{
+        grid-area: h;
+    }
+    #b{
+        grid-area: e;
+    }
+    #c{
+        grid-area: w;
+    }
+    #d{
+        grid-area: n;
+    }
+    #j{
+        grid-area: j;
+    }
+    #spotlights{
+        grid-area: sp;
+        display: flex;
+        display: grid;
+        grid-template-areas: "s1"
+                            "s2";
+
+    }
+    #e{
+        grid-area: s1;
+      }
+    
+    #f{
+        grid-area: s2;
+      }
+   }

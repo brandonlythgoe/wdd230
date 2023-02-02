@@ -1,0 +1,41 @@
+@media screen and (min-width: 700px){
+    .main{
+        display: grid;
+        grid-template-areas: "m1 m1 m1"
+                             "m2 m2 m2"
+                             "m3 m3 m3"
+                             "m4 m4 m4"
+                             "m5 m5 m6"
+        
+        ;
+    }
+    #a{
+        grid-area: m1;
+    }
+    #b{
+        grid-area: m5;
+    }
+    #c{
+        grid-area: m6;
+    }
+    #d{
+        grid-area: m2;
+    }
+    #j{
+        grid-area: m4;
+    }
+    #spotlights{
+        grid-area: m3;
+        display: flex;
+        display: grid;
+        grid-template-areas: "s1 s2";
+
+    }
+    #e{
+        grid-area: s1;
+      }
+    
+      #f{
+        grid-area: s2;
+      }
+   }

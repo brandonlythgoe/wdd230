@@ -4,7 +4,7 @@
 
 header{
     display: grid;
-    grid-template-columns: 8fr, 1fr, 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     justify-items: center;
     text-align: center;
@@ -13,23 +13,23 @@ header{
     display: flex;
     grid-column: 1;
 }
-#fb{
+#fb,#insta{
     grid-column: 3;
 }
-#insta{
-    grid-column: 4;
-}
+
 h1{
     grid-column: 2;
-    font-size: larger;
+    font-size: 3em;
+    text-align: center;
 }
 
-nav ul{
+nav ul #menu-open.menu-active{
     display: flex;
     list-style: none;
     padding-inline-start: 0px;
     font-family: "raleway";
     background-color: #053C5E;   
+    
 }
 
 nav ul li{
@@ -37,6 +37,7 @@ nav ul li{
     text-align: center;
     min-width: 210px;
     color: white;
+    background-color: #053C5E; 
 }
 nav ul li:hover{
     background-color:#DB4C40;
@@ -44,24 +45,36 @@ nav ul li:hover{
 }
 
 
-nav a{
+nav a {
     display: flex;
     justify-content: space-between;
     margin: 0.5rem;
     text-decoration: none;
     color: white;
     width: 100%;
+    
 }
 
 
-
-footer{
-    background-color: #709176;
-    color: black;
+.header-today{
+  padding: .25rem;
+  background-color:#DB4C40;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.25em;
 }
+
 body{
     background-color: #F9EDCC;
 }
+.box{
+    min-height:10em;
+    background-color: #053C5E;
+    color: white;
+    padding:0.2rem;
+    margin:0.5rem;
+  }
 
 .main{
     display: grid;
@@ -74,8 +87,7 @@ body{
 }
 #a{
     grid-area: s1;
-    color: red;
-
+    
 }
 #b{
     grid-area: s2;
@@ -102,6 +114,7 @@ body{
   
   #navbar{
     display: none;
+    
     
   }
   
@@ -130,3 +143,48 @@ body{
   #join, #spotlight3 {
     display:none;
   }
+
+  /* Footer */
+  footer{
+    background-color: #DB4C40;
+    color: white;
+}
+
+  .foot{
+    display: grid;
+    grid-template-areas: "l  a"
+                          "s c"
+                          "li li"
+                          "y y";
+  }
+
+
+  #logo{
+    grid-area: l;
+    
+  }
+
+  .address{
+    grid-area: a;
+    padding-left: 12.5rem;
+  }
+
+  .contact{
+    grid-area: c;
+    padding-left: 12.5rem;
+    padding-top: 4rem;
+  }
+
+  .info{
+    grid-area: s;
+    padding-top: 4rem;
+  }
+
+#last{
+  grid-area: y;
+  text-align: center;
+}
+
+#line{
+  grid-area: li;
+}
