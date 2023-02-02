@@ -30,6 +30,7 @@
         grid-area: m3;
         display: flex;
         display: grid;
+        margin: 0.5rem;
         grid-template-areas: "s1 s2";
 
     }

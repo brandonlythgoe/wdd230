@@ -12,6 +12,7 @@ header{
 #logo_link{
     display: flex;
     grid-column: 1;
+    margin-top: 1.5rem;
 }
 #fb,#insta{
     grid-column: 3;
