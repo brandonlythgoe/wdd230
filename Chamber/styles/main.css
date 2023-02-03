@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-
+html{
+  font-family: 'raleway';
+}
 
 header{
     display: grid;
@@ -32,12 +34,15 @@ nav ul {
     flex-direction: column;
     list-style: none;
     font-family: "raleway";
-    background-color: #053C5E;   
+    background-color: #053C5E; 
+    padding-inline-start: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;  
     
 }
 
 nav ul li{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 1rem;
     text-align: center;
     min-width: 210px;
@@ -62,12 +67,16 @@ nav a {
 
 
 .header-today{
-  padding: .25rem;
+  display: flex;
+  justify-content: space-between;
   background-color:#DB4C40;
   color: white;
   text-align: center;
   font-weight: 300;
   font-size: 1.25em;
+}
+.date{
+  width: 100%;
 }
 
 body{
@@ -159,7 +168,7 @@ body{
     display: grid;
     grid-template-areas: "l  a"
                           "s c"
-                          "li li"
+                          /* "li li" */
                           "y y";
   }
 
@@ -190,6 +199,6 @@ body{
   text-align: center;
 }
 
-#line{
+/* #line{
   grid-area: li;
-}
+} */

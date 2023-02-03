@@ -11,6 +11,7 @@
     <link rel=" icon" href="./favicon.ico">
     <script defer src = "./scripts/header-footer.js" ></script>
     <script defer src=" ./scripts/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Chamber Of Commerce</title>
 </head>
 <body>
@@ -19,19 +20,26 @@
             <img class="logo" src="images/red.png" alt="Gilbert Logo">
         </a>
         <h1>Gilbert Chamber Of Commerce</h1>
-         <a id="fb" href="https://facebook.com">
-            <img class="logo" src="images/facebook.png" alt="Facebook Logo">
-        </a>
-         <a id="insta" href="https://instagram.com">
-            <img class="logo" src="images/instagram.png" alt="Instagram Logo">
-        </a>
-        
+        <div id = "media">
+            <a id="fb" href="https://facebook.com">
+                <img class="logo" src="images/facebook.png" alt="Facebook Logo">
+            </a>
+            <a id="insta" href="https://instagram.com">
+                <img class="logo" src="images/instagram.png" alt="Instagram Logo">
+            </a>
+        </div>
     </header>
-        <nav>
+    
+        <div class="header-today"><p class = "date"></p>
             <button id="hamburger-menu">
                 <span id="menu-closed">&equiv;</span>
-                <span id="menu-open">X</span>
+                <span class="material-symbols-outlined" id = "menu-open">
+                    close
+                </span>
             </button>
+        </div>
+        <nav>
+            
             <ul id="navbar">
                 <li class="active"><a href="index.html">Home Page </a></li>
                 <li><a href="discover.html">Discover</a></li>
@@ -40,7 +48,6 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="header-today"><p></p></div>
     
     <main class = main>
         <div id="a" class = "box"><p> Hero With Site Name and Call to Action</p></div>
@@ -80,8 +87,8 @@
             <p> WDD230 Project</p>
             
             </div>
-        <hr id="line"/>
-        <div id = "last"><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
+        
+        <div id = "last"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
         
     </footer>
     
