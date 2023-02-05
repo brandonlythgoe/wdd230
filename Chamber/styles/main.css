@@ -84,6 +84,8 @@ body{
 }
 .box{
     min-height:10em;
+    align-content: center;
+    text-align: center;
     background-color: #053C5E;
     color: white;
     padding:0.2rem;
@@ -100,7 +102,7 @@ body{
     
 }
 #a{
-    grid-area: s1;
+    grid-area: s1;   
     
 }
 #b{
@@ -197,6 +199,32 @@ body{
 #last{
   grid-area: y;
   text-align: center;
+}
+
+/* Content */
+#landscape{
+max-width: 50em;
+width: 100%;
+}
+#weather{
+  max-width: 175px;
+  /* content: inherit; */
+  text-align: center;
+}
+ .join{
+  text-decoration: none;
+  background-color: #F9EDCC;
+  color: #053C5E;
+  font-size: 18px;
+  padding: 50px 50px;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  align-content: center;
+  font-family: "Raleway";
+}
+.join:hover{
+  background-color: #DB4C40;
+  color: white;
 }
 
 /* #line{

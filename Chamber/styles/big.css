@@ -37,6 +37,7 @@
     }
     #j{
         grid-area: j;
+        align-content: center;
     }
     #spotlights{
         grid-area: sp;
@@ -53,7 +54,8 @@
       
 
     #j{
-        display:flex;
+        /* display:flex;
+        align-content: center; */
     }
     #e{
         grid-area: s1;
@@ -66,4 +68,5 @@
         display: inline;
         grid-area: s3;
       }
+      
    }
