@@ -102,11 +102,13 @@ body{
     
 }
 #a{
-    grid-area: s1;   
+    grid-area: s1;
+  
     
 }
 #b{
     grid-area: s2;
+
 }
 #c{
     grid-area: s3;
@@ -116,7 +118,6 @@ body{
 }
 #e{ grid-area: s5;
 }
-
 
  /* Hamburger menu  */
   
@@ -201,32 +202,96 @@ body{
   text-align: center;
 }
 
+
 /* Content */
 #landscape{
-max-width: 50em;
-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
 }
+#carnival{
+  max-width: 50%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
 #weather{
   max-width: 175px;
   /* content: inherit; */
   text-align: center;
 }
- .join{
+
+
+#news{
+  font-size: 1.5em;
+}
+.join{
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   background-color: #F9EDCC;
   color: #053C5E;
-  font-size: 18px;
-  padding: 50px 50px;
-  margin-top: 1.5em;
+  font-size: 1.5em;
+  padding: 10px 10px;
   border-radius: 5px;
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  align-content: center;
+  font-family: "Raleway";
+}
+
+.start{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #F9EDCC;
+  color: #053C5E;
+  font-size: 1.5em;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
   align-content: center;
   font-family: "Raleway";
 }
 .join:hover{
   background-color: #DB4C40;
   color: white;
+
+}
+.start:hover{
+  background-color: #DB4C40;
+  color: white;
+
+}
+#greet{
+  display:none;
 }
 
+#greet.active{
+  display:flex;
+  background-color: #DB4C40;
+  color: white;
+  
+ 
+                       
+}
+#welcome{
+  position: absolute;
+  font-size: 2.5em;
+  top: 0%;
+  left: 0%;
+  background-color: #053C5E;
+  color: white;
+}
+#welcome:hover{
+  background-color: #F9EDCC;
+  color: #053C5E;
+}
 /* #line{
   grid-area: li;
 } */

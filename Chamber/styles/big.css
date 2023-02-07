@@ -25,6 +25,7 @@
     }
     #a{
         grid-area: h;
+        position: relative;
     }
     #b{
         grid-area: e;
@@ -38,6 +39,7 @@
     #j{
         grid-area: j;
         align-content: center;
+        position: relative;
     }
     #spotlights{
         grid-area: sp;
