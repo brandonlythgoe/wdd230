@@ -11,6 +11,7 @@
     <link rel=" icon" href="./favicon.ico">
     <script defer src = "./scripts/header-footer.js" ></script>
     <script defer src=" ./scripts/main.js"></script>
+    <script defer src="./scripts/windchill.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Chamber Of Commerce</title>
 </head>
@@ -63,9 +64,9 @@
         <div id="c" class = "box">
             <h2> Weather</h2>
             <img id="weather" src="images/weather.png" alt="Weather icon">
-            <p> 75 Degrees</p>
-            <p> Partly Cloudy</p>
-            <p> 20% Humidity</p>
+            <p> Degrees: <span id ="temperature">?</span>&deg; F</p>
+            <p> Wind Speed: <span id ="windspeed">?</span>mph</p>
+            <p> Wind Chill: <span id ="windchill">?</span>&deg; F</p>
         </div>
         <div id="d" class = "box">
             <h2> News Release</h2>
@@ -79,9 +80,13 @@
         <div id = spotlights class = "box">
             
             <div id="e"><h2> Small Buisness workshop </h2>
-                <p> Come meet some of Gilbert's most influential Local Buisness Owners. This Saturday, February 12th, come learn tips and tricks for running a small buisness, and about various networking opprotunities throughout the valley.
+                <p> Come meet some of Gilbert's most influential Local Buisness Owners. This Saturday, February 12th, 
+                    come learn tips and tricks for running a small buisness, and about 
+                    various networking opprotunities throughout the valley. </p>
+            </div>
             <div id="f"><h2> Youth Sports Night </h2>
-                <p> The Gilbert Rec Center is hosting a free Youth sports night on Wednesday, March 7th, from 5-8pm. Please spread the word!</p>
+                <p> The Gilbert Rec Center is hosting a free Youth sports night on Wednesday, March 7th,
+                     from 5-8pm. Please spread the word!</p>
             </div>
             <div id="g"><h2> Volunteers Needed! </h2>
                 <p> We are looking for volunteers to help at this years blood drive! Please contact us at gilbertchamber@gmail.com if you are available!</p>

@@ -12,6 +12,7 @@
     }
     #a{
         grid-area: m1;
+        position: relative;
     }
     #b{
         grid-area: m5;
@@ -25,6 +26,7 @@
     #j{
         display: flex;
         grid-area: m4;
+        position: relative;
     }
     #spotlights{
         grid-area: m3;
@@ -44,4 +46,61 @@
     #hamburger-menu{
         display: inline;
     }
+    #welcome{
+        position: absolute;
+        font-size: 2.5em;
+        padding: 1rem;
+        top: 10%;
+        width: fit-content;
+        /* left: 0%; */
+        background-color: #053C5E;
+        color: white;
+      }
+      #welcome:hover{
+        background-color: #F9EDCC;
+        color: #053C5E;
+      }
+      .join{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        background-color: #F9EDCC;
+        color: #053C5E;
+        font-size: 1.5em;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin: 0;
+        position: absolute;
+        top: 90%;
+        left: 80%;
+        align-content: center;
+        font-family: "Raleway";
+      }
+      
+      .start{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        background-color: #F9EDCC;
+        color: #053C5E;
+        font-size: 1.5em;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin: 0;
+        position: absolute;
+        top: 65%;
+        left: 45%;
+        align-content: center;
+        font-family: "Raleway";
+      }
+      .join:hover{
+        background-color: #DB4C40;
+        color: white;
+      
+      }
+      .start:hover{
+        background-color: #DB4C40;
+        color: white;
+      
+      }
    }

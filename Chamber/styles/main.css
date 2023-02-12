@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+*{padding: 0;
+  margin: 0;
+box-sizing: border-box;}
 html{
   font-family: 'raleway';
 }
@@ -99,15 +101,18 @@ body{
                         "s3"
                         "s4"
                         "s5";
-    
+                        
 }
 #a{
     grid-area: s1;
+    padding: 0;
+    position: relative;
   
     
 }
 #b{
     grid-area: s2;
+    padding: 0;
 
 }
 #c{
@@ -208,11 +213,13 @@ body{
   max-width: 100%;
   min-height: 100%;
   object-fit: cover;
+    
 }
 #carnival{
-  max-width: 50%;
+  max-width: 100%;
   min-height: 100%;
   object-fit: cover;
+  
 }
 
 #weather{
@@ -224,31 +231,74 @@ body{
 
 #news{
   font-size: 1.5em;
+  
 }
 
 #greet{
   display:none;
-}
+} 
 
 #greet.active{
   display:flex;
   background-color: #DB4C40;
   color: white;
-  
- 
                        
 }
 #welcome{
   position: absolute;
-  font-size: 2.5em;
-  top: 0%;
-  left: 0%;
+  font-size: 1.8em;
+  top: 10%;
+  width: fit-content;
   background-color: #053C5E;
   color: white;
 }
 #welcome:hover{
   background-color: #F9EDCC;
   color: #053C5E;
+}
+
+.join{
+  display: none;
+  /* flex-direction: column;
+  text-decoration: none;
+  background-color: #F9EDCC;
+  color: #053C5E;
+  font-size: 1.5em;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  align-content: center;
+  font-family: "Raleway"; */
+} 
+
+.start{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #F9EDCC;
+  color: #053C5E;
+  font-size: 1.5em;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 0;
+  position: absolute;
+  top: 1%;
+  left: 0%;
+  align-content: center;
+  font-family: "Raleway";
+}
+ .join:hover{
+  background-color: #DB4C40;
+  color: white;
+
+} 
+.start:hover{
+  background-color: #DB4C40;
+  color: white;
+
 }
 /* #line{
   grid-area: li;

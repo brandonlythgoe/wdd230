@@ -70,6 +70,18 @@
         display: inline;
         grid-area: s3;
       }
+      #welcome{
+        position: absolute;
+        font-size: 2.5em;
+        top: 5%;
+        left: 0%;
+        background-color: #053C5E;
+        color: white;
+      }
+      #welcome:hover{
+        background-color: #F9EDCC;
+        color: #053C5E;
+      }
       .join{
         display: flex;
         flex-direction: column;
