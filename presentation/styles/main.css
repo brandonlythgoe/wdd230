@@ -1,0 +1,33 @@
+/* Pseudo Classes */
+h2:hover{
+    background-color: blue;
+    color: white;
+}
+
+:lang(esp) { 
+  color: orange;
+  font: bold;
+}
+
+
+a:visited {
+    color: blueviolet;
+}
+
+
+
+
+/* Pseudo Elements */
+h3::after{
+    content: " =  I like Food";
+    color: Black;
+}
+
+
+
+::selection {
+    color: red;
+    background: yellow;
+  }
+
+
