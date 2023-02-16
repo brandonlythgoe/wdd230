@@ -19,7 +19,7 @@
     <header>
         <div id="greet">Join us This Friday from 5-7pm for our Chamber meet and greet!</div>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/red.png" alt="Gilbert Logo">
+            <img class="logo" src="images/newred.webp" alt="Gilbert Logo">
         </a>
         <h1>Gilbert Chamber Of Commerce</h1>
         <div id = "media">
@@ -53,8 +53,14 @@
     
     <main class = main>
         <div id="a" class = "box">
-            <h4 id = "welcome"> Welcome to the Gilbert Chamber of Commerce</h4>
-            <img id="landscape" src="images/landscape.jfif" alt="Gilbert Landscape">
+            <!-- <h4 id = "welcome"> Welcome to the Gilbert Chamber of Commerce</h4> -->
+                <picture class="landscape">
+                    <source media="(max-width: 800px)" srcset="./images/small.jpg" />
+                    <source media="(max-width: 1200px)" srcset="./images/medium.jpg" />
+                    <img id ="landscape" src="./images/large.jpg" alt="Stock Photo" />
+                </picture>
+                <!-- <img id="landscape" src="images/landscape.jfif" alt="Gilbert Landscape"> -->
+            
             <a class='join' href="index.html">Join Us</a>
         </div>
         
@@ -95,7 +101,7 @@
     </main>
     <footer class = "foot">
         <a id="logo_foot" href="index.html">
-            <img class="logof" src="images/blue.png" alt="Gilbert Logo">
+            <img class="logof" src="images/newblue.webp" alt="Gilbert Logo">
         </a>
          <div class = contact>
             <p> Email: info@cityofgilbert.com</p>
