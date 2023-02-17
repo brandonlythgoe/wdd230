@@ -338,7 +338,7 @@ font-size: 1.5em;
 #stats li{
   padding-top: .2em;
 }
-#discover{
+.discover{
   border: 1px solid black;
   text-align: center;
   max-width: 50em;
@@ -347,17 +347,17 @@ font-size: 1.5em;
   background-color:#DB4C40;
   margin-bottom: 5em;
 }
-#discover h3{
+.discover h3{
   color: white;
   font-size: 1.5em;
   margin-bottom: .5em;
   margin-top: .5em;
 }
-#images{
+.images{
   padding-top: .5em;
   padding-bottom: .5em;
 }
-#discover p{
+.discover p{
 color:white; 
 margin-bottom: .5em;
 }
