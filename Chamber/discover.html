@@ -12,6 +12,7 @@
     <script defer src = "./scripts/header-footer.js" ></script>
     <script defer src=" ./scripts/main.js"></script>
     <script defer src="./scripts/visit.js"></script>
+    <script src="./scripts/lazy.js" defer></script>
 </head>
 <body>
     <header>
@@ -41,22 +42,85 @@
         <nav>
             
             <ul id="navbar">
-                <li ><a href="./index.html">Home Page </a></li>
-                <li class="active"><a href="./discover.html">Discover</a></li>
+                <li ><a href="/chamber/index.html">Home Page </a></li>
+                <li class="active"><a href="/chamber/discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
      <main>
+    
+
+        <ul id ="stats">
+            <h2> Gilbert Arizona Stats</h2>
+            <hr id = rule>
+            <li>Population: 285,756</li>
+            <li>Maricopa County</li>
+            <li>Land Area: 68.5 sq mi</li>
+            <li> Growth Since 2020: 6.66% </li>
+        </ul>
         <h1>It has been <span id='days-since-visit'></span> days since your last visit.</h1>
-        <div id ="stats">
-            <p>Population: 285,756</p>
-            <p>Maricopa County</p>
-            <p>Land Area: 68.5 sq mi</p>
-            <p> Growth Since 2020 6.66% </p>
+        <div id = discover>
+            <h3> Gilbert Temple</h3>
+            <hr>
+            <picture>
+                <img id = "images" src= "./images/placeholder.png" data-src= "./images/temple.webp" alt="Tacos" >
+            </picture>
+            <!-- <img id="images" src="images/temple.webp" alt="Gilbert Temple"> -->
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Provident perferendis natus dolorum? Libero quia aliquid similique doloremque,
+                  nam consequatur praesentium itaque doloribus. Earum corporis dolorem dolor,
+                   rerum nobis numquam deserunt.</p>
         </div>
-            
+        <div id = discover>
+            <h3> Best Golf Courses In the Valley</h3>
+            <hr>
+            <picture>
+                <img id = "images" src= "./images/placeholder.png" data-src= "./images/golf.webp" alt="Tacos" >
+            </picture>
+            <!-- <img id="images" src="images/golf.webp" alt="Golf Course"> -->
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Provident perferendis natus dolorum? Libero quia aliquid similique doloremque,
+                  nam consequatur praesentium itaque doloribus. Earum corporis dolorem dolor,
+                   rerum nobis numquam deserunt.</p>
+        </div>
+        <div id = discover>
+            <h3> Check out GIlberts Finest Restaurants</h3>
+            <hr>
+            <picture>
+                <img id = "images" src= "./images/placeholder.png" data-src= "./images/taco.webp" alt="Tacos" >
+            </picture>
+            <!-- <img id="images" src="images/taco.webp" alt="Tacos"> -->
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Provident perferendis natus dolorum? Libero quia aliquid similique doloremque,
+                  nam consequatur praesentium itaque doloribus. Earum corporis dolorem dolor,
+                   rerum nobis numquam deserunt.</p>
+        </div>
+        <div id = discover>
+            <h3>Family fun</h3>
+            <hr>
+            <picture>
+                <img id = "images" src= "./images/placeholder.png" data-src= "./images/entertainment.webp" alt="Tacos" >
+            </picture>
+            <!-- <img id="images" src="images/entertainment.webp" alt="Main Event Image"> -->
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Provident perferendis natus dolorum? Libero quia aliquid similique doloremque,
+                  nam consequatur praesentium itaque doloribus. Earum corporis dolorem dolor,
+                   rerum nobis numquam deserunt.</p>
+        </div>
+        <div id = discover>
+            <h3>Shopping</h3>
+            <hr>
+            <picture>
+                <img id = "images" src= "./images/placeholder.png" data-src= "./images/shop.webp" alt="Tacos" >
+            </picture>
+            <!-- <img id="images" src="images/shop.webp" alt="Shopping Center"> -->
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Provident perferendis natus dolorum? Libero quia aliquid similique doloremque,
+                  nam consequatur praesentium itaque doloribus. Earum corporis dolorem dolor,
+                   rerum nobis numquam deserunt.</p>
+        </div>
     </main>
     <footer class = "foot">
         <a id="logo_foot" href="index.html">
