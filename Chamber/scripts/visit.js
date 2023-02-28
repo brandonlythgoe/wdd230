@@ -12,3 +12,5 @@ else{
     visitspan.textContent = daysSinceLastVisit;
 }
 localStorage.setItem("lastVisit", today.toLocaleDateString());
+
+

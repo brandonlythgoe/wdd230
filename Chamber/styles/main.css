@@ -404,7 +404,7 @@ form label.person input, form label.select {
   color:white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
-  margin: 2rem 0 2rem 2%;
+  margin: 2rem 0 2rem 2rem;
   width: 80%;
   max-width: 20rem;
 }
