@@ -125,4 +125,23 @@
         color: white;
       
       }
+      .main-form{
+        display: grid;
+        grid-template-areas: "f1"
+                             "f2 f3";
+        min-width: 1000px;
+        align-content: center;
+      }
+
+      .membership{
+        grid-area: f3;
+        min-width: 40rem;
+        
+        
+      }
+      form fieldset{
+        grid-area: f2;
+        min-width: 40rem;
+      }
+      
    }

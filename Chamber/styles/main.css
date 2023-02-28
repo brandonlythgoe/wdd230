@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-*{padding: 0;
+*{
   margin: 0;
 box-sizing: border-box;}
 html{
@@ -360,4 +360,88 @@ font-size: 1.5em;
 .discover p{
 color:white; 
 margin-bottom: .5em;
+}
+
+/* -------------------Join-------------------- */
+
+form fieldset, .membership {
+  
+  border: 1px solid black;
+  border-radius: 10px;
+  width:100%;
+  max-width:30rem;
+  
+  
+}
+
+form label.person {
+  display: block;
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+form label.person input, form label.select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  color: dark gray;
+  padding: 1rem;
+  width: 70%;
+  max-width: 25rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.member {
+  display: block;
+  padding:.75rem 0;
+}
+
+.submit-button {
+  border: none;
+  background-color: #053C5E;
+  color:white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 2rem 0 2rem 2%;
+  width: 80%;
+  max-width: 20rem;
+}
+
+
+
+
+
+.main-form{
+  max-width: 900px;
+  align-content: center;
+  background-color:#F9EDCC;
+  padding:40px;
+  margin-top: -14px;
+}
+
+#form-header{
+
+  text-align: center;
+  
+}
+
+ .membership{
+  border: 1px solid black;
+  padding:12px;
+  
+
+} 
+
+.person input:required {
+  border: #DB4C40 solid 2px;
+}
+
+.person input:required:valid {
+  border: green solid 2px;
+}
+
+.person input:not([required]) {
+  border: gray 2px;
 }
