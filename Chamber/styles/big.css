@@ -143,5 +143,9 @@
         grid-area: f2;
         min-width: 40rem;
       }
+       .images:hover{
+        border-radius: 20%;
+
+      }  
       
    }

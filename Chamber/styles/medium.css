@@ -103,5 +103,9 @@
         color: white;
       
       }
-    
+
+      .images:hover{
+        border-radius: 20%;
+
+      }  
    }

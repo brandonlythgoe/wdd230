@@ -316,7 +316,7 @@ h2{
 }
 h1{
   font-size: 1.5em;
-  border: 1px solid black;
+  
 
 }
 
@@ -346,6 +346,8 @@ font-size: 1.5em;
   margin-bottom: 1em;
   background-color:#DB4C40;
   margin-bottom: 5em;
+  
+
 }
 .discover h3{
   color: white;
@@ -356,6 +358,8 @@ font-size: 1.5em;
 .images{
   padding-top: .5em;
   padding-bottom: .5em;
+  object-fit: cover;
+  max-width: 100%;
 }
 .discover p{
 color:white; 
