@@ -449,3 +449,95 @@ form label.person input, form label.select {
 .person input:not([required]) {
   border: gray 2px;
 }
+
+/*  Directory ----------------------*/
+/* Directory Page Stuff */
+.directory-main{
+  width: 100%;
+}
+
+#directory-selector{
+  width: 100%;
+  text-align: center;
+}
+
+#directory-selector button{
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 5px;
+  background-color: grey;
+  border: 1px black solid;
+}
+
+#directory-selector button.active{
+  background-color: #053C5E;
+  color: white;
+}
+
+/* Cards view */
+
+.directory-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  
+}
+
+.directory-cards section{
+  text-align: center;    
+  border: 2px solid grey;    
+  width: 300px;
+  background-color: #DB4C40;
+  color: white;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+.directory-cards .gold-member{
+  /* box-shadow: inset 1rem 1rem gold; */
+  border: 7px solid gold;
+  background-color: #053C5E;
+  
+}
+.directory-cards a{
+  color:white;
+}
+
+/* List View */
+
+.directory-list{    
+  display: grid;
+  justify-items: center;   
+  padding: 1rem; 
+  font-size: 1em;   
+}
+
+.directory-list section img{
+  display: none;
+  
+}
+
+.directory-list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  width: 95%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+  background-color: grey;
+  
+}
+
+.directory-list section:nth-child(even) {
+  background-color: white;
+  
+}
+.directory-list .gold-member::after{
+  content: "(Gold Member)";
+}
+ .directory data .directory-list:nth-last-child(){
+  display: none;
+} 
+

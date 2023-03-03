@@ -147,5 +147,10 @@
         border-radius: 20%;
 
       }  
-      
+      .directory-list{    
+        display: grid;
+        justify-items: center;   
+        padding: 1rem; 
+        font-size: 1.3em;   
+      }
    }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Discover Page For Chamber of Commerve Site">
+    <title>Discover</title>
+    <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel = "stylesheet" href = "./styles/main.css">
+    <link rel = "stylesheet" href = "./styles/medium.css">
+    <link rel = "stylesheet" href = "./styles/big.css">
+    <script defer src = "./scripts/header-footer.js" ></script>
+    <script defer src=" ./scripts/main.js"></script>
+    <script defer src="./scripts/visit.js"></script> 
+    <script defer src="./scripts/directory.js" ></script>
+</head>
+<body>
+    <header>
+        <div id="greet">Join us This Friday from 5-7pm for our Chamber meet and greet!</div>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/newblue.webp" alt="Gilbert Logo">
+        </a>
+        <h1>Gilbert Chamber Of Commerce</h1>
+        <div id = "media">
+            <a id="fb" href="https://facebook.com">
+                <img class="logo" src="images/facebook.png" alt="Facebook Logo">
+            </a>
+            <a id="insta" href="https://instagram.com">
+                <img class="logo" src="images/instagram.png" alt="Instagram Logo">
+            </a>
+        </div>
+    </header>
+  
+        <div class="header-today"><p class = "date"></p>
+            <button id="hamburger-menu">
+                <span id="menu-closed">&equiv;</span>
+                <span class="material-symbols-outlined" id = "menu-open">
+                    close
+                </span>
+            </button>
+        </div>
+        <nav>
+            
+            <ul id="navbar">
+                <li ><a href="/chamber/index.html">Home Page </a></li>
+                <li class="active"><a href="/chamber/discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="directory-main">
+            <div id='directory-selector'>
+              <button id="directory-grid" class="active">GRID</button>
+              <button id="directory-list">LIST</button></div>
+            <div id='directory-data' class='directory-cards'>
+            </div>
+        </main>
+    <footer class = "foot">
+        <a id="logo_foot" href="index.html">
+            <img class="logof" src="images/newblue.webp" alt="Gilbert Logo">
+        </a>
+         <div class = contact>
+            <p> Email: info@cityofgilbert.com</p>
+            <p> Cell: 208-206-2881</p>
+            <p> Office Hours: 9am-5pm
+                Monday - Friday
+            </p>
+         </div>
+        <div class = "address">
+            <p> 119 North Gilbert Road,Ste 101
+            P.O. Box 527
+            Gilbert, AZ 85299-0527</p>
+            <a id="map" href="https://www.google.com/maps/place/Gilbert,+AZ/@33.2951952,-111.8340026,12z/data=!3m1!4b1!4m6!3m5!1s0x872ba90de045ae43:0x6453ae977fd9ef7e!8m2!3d33.3528264!4d-111.789027!16zL20vMHFwbDk">
+            <img class="logo" src="images/map.png" alt="Map Logo">
+        </a>
+        </div>
+    
+            <div class = "info">
+            <p>&copy; Gilbert Arizona Chamber Of Commerce</p>
+            <p> Brandon Lythgoe</p>
+            <p> WDD230 Project</p>
+            
+            </div>
+        
+        <div id = "last"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
+        
+    </footer>
+</body>
+</html>
