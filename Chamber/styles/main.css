@@ -485,7 +485,7 @@ form label.person input, form label.select {
 
 .directory-cards section{
   text-align: center;    
-  border: 2px solid grey;    
+  border: 5px solid black;    
   width: 300px;
   background-color: #DB4C40;
   color: white;
