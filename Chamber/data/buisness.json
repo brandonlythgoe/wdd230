@@ -7,7 +7,8 @@
             "phoneNumber":"(480) 539-2988",
             "websiteURL":"https://www.geckogrillaz.com/gecko-grill-gilbert",
             "imageURL":"./images/gecko.webp",
-            "membershipLevel":"gold"
+            "membershipLevel":"gold",
+            "alt_text":"Gecko Grill Logo"
         },
         {
             "name":"Western Skies Golf Club",
@@ -16,7 +17,8 @@
             "phoneNumber":"(480) 545-8542",
             "websiteURL":"https://www.westernskiesgolf.com/",
             "imageURL":"./images/western.webp",
-            "membershipLevel":"silver"
+            "membershipLevel":"silver",
+            "alt_text":"Western Skies Logo"
         },
         {
             "name":"Paul Kelly Maxillofacial",
@@ -25,7 +27,8 @@
             "phoneNumber":"480-685-9696",
             "websiteURL":"https://www.paulkellymaxface.com",
             "imageURL":"./images/kelly.webp",
-            "membershipLevel":"gold"
+            "membershipLevel":"gold",
+            "alt_text":"Kelly Maxillofacial Logo"
         },
         {
             "name":"Banner Health",
@@ -34,7 +37,8 @@
             "phoneNumber":"(480) 543-2000",
             "websiteURL":"https://www.bannerhealth.com/",
             "imageURL":"./images/banner.webp",
-            "membershipLevel":"gold"
+            "membershipLevel":"gold",
+            "alt_text":"Banner Health Logo"
         },
         {
             "name":"Main Event Entertainment",
@@ -43,7 +47,8 @@
             "phoneNumber":"(480) 462-2200",
             "websiteURL":"https://www.mainevent.com",
             "imageURL":"./images/mainevent.webp",
-            "membershipLevel":"silver"
+            "membershipLevel":"silver",
+            "alt_text":"Main Event Logo"
         },
         {
             "name":"Kneaders",
@@ -52,7 +57,8 @@
             "phoneNumber":"(480) 398-4720",
             "websiteURL":"https://www.kneaders.com/",
             "imageURL":"./images/kneaders.webp",
-            "membershipLevel":"silver"
+            "membershipLevel":"silver",
+            "alt_text":"Kneaders Logo"
         },
         {
             "name":"Top Golf",
@@ -61,7 +67,8 @@
             "phoneNumber":"(480) 878-6657",
             "websiteURL":"https://topgolf.com/",
             "imageURL":"./images/topgolf.webp",
-            "membershipLevel":"gold"
+            "membershipLevel":"gold",
+            "alt_text":"Top Golf Logo"
         },
         {
             "name":"Jamba Juice",
@@ -70,7 +77,8 @@
             "phoneNumber":"(480) 632-9852",
             "websiteURL":"https://www.jamba.com/",
             "imageURL":"./images/jamba.webp",
-            "membershipLevel":"silver"
+            "membershipLevel":"silver",
+            "alt_text":"Jamba Juice Logo"
         },
         {
             "name":"The Habit Burger Grill",
@@ -79,7 +87,8 @@
             "phoneNumber":"(480) 726-2089",
             "websiteURL":"https://www.habitburger.com/",
             "imageURL":"./images/habit.webp",
-            "membershipLevel":"gold"
+            "membershipLevel":"gold",
+            "alt_text":"Habit Logo"
         },
 
         {
@@ -89,7 +98,8 @@
             "phoneNumber":"",
             "websiteURL":"",
             "imageURL":"",
-            "membershipLevel":"gold"
+            "membershipLevel":"gold",
+            "alt_text":"Description of layout"
         }
         
         

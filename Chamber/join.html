@@ -13,7 +13,8 @@
     <script defer src = "./scripts/header-footer.js" ></script>
     <script defer src=" ./scripts/main.js"></script>
     <script defer src="./scripts/visit.js"></script>
-    <script src="./scripts/lazy.js" defer></script>
+    <script src="./scripts/lazy.js" defer></script> 
+    <script src="./scripts/hidden.js" defer></script> 
 </head>
 <body>
     <header>
@@ -59,14 +60,14 @@
                 <label class="person">Last Name &#42;<input type="text" name="lname" required></label>
                 <label class="person">Cell Phone &#42;<input type="tel" name="phone" placeholder="480 777 2555" required></label>
                 <label class="person">Email &#42;<input type="email" name="email" placeholder="chamberguest@gmail.com" required></label>
-                <label class="person">Business<input type="text" name="business-name"></label>
+                <label class="person">Business<input type="text" name="business-name" pattern="[A-Za-z -]{7,}" > </label>
                 <h3>Membership Levels ;</h3>
                 <label class="member"><input type="radio" name="mlevel" value="non-profit">Non-Profit</label>
                 <label class="member"><input type="radio" name="mlevel" value="bronze">Bronze</label>
                 <label class="member"><input type="radio" name="mlevel" value="silver">Silver</label>
                 <label class="member"><input type="radio" name="mlevel" value="gold">Gold</label>
                 <label class="member">Buisness Description<textarea id="background" name="story" placeholder="Google" rows="5" cols="33"> </textarea> </label>
-                <input type="hidden" id="formLoadTime" name="formLoadTime" value="">
+                <input type="hidden" id="formLoadTime" name="current" value="">
                 <input type="submit" value = "Join Now!" class="submit-button">
             </fieldset>
 
