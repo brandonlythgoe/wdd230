@@ -46,9 +46,9 @@ nav ul {
 
 nav ul li{
     border: 1px solid white;
-    padding: 1rem;
+
     text-align: center;
-    min-width: 210px;
+    
     color: white;
     background-color: #053C5E; 
 }
@@ -65,10 +65,13 @@ nav ul li:hover{
 nav a {
   
     justify-content: space-between;
-    margin: 0.5rem;
     text-decoration: none;
     color: white;
-    width: 100%;
+    min-width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     
 }
 
@@ -426,7 +429,7 @@ form label.person input, form label.select {
 }
 
 #form-header{
-
+  grid-area: text;
   text-align: center;
   
 }
