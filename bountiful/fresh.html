@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Home Page For Bountiful Foods Website">
+    <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel = "stylesheet" href = "./styles/main.css">
+    <script defer src="./scripts/fruity.js" ></script>
+    
+
+    <title>Bountiful Foods Home Page</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.webp" alt="Bountiful Foods Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="active" href="fresh.html">Fresh</a>
+            <a href="order.html">Your Order</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+        <div id = "media">
+            <a id="fb" href="https://facebook.com">
+                <img class="fb" src="images/facebook.png" alt="Facebook Logo">
+            </a>
+            <a id="insta" href="https://instagram.com">
+                <img class="insta" src="images/instagram.png" alt="Instagram Logo">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+        </div>
+        
+    </header>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/smoothie.webp" alt="Smoothies">
+        </div>
+        <section id="hero-msg">
+            <h1>Bountiful Foods</h1>
+            <h4>Fresh Fruit Your Way </h4>
+        </section> 
+            <div class='button-box'>
+                <a class='fresh' href="fresh.html">Create your Smoothie!</a>
+            </div>
+    </div>
+    <main class="directory-main">
+
+        <div class = "custom-drink">
+            <h2> Create your Custom Fruit Drink! </h2>
+            <p> Select up to 3 fruits to make your combination</p>
+        </div>
+       
+        <div id='directory-data' class='directory-cards'>
+    
+        </div>
+
+        
+            
+            <section id="fruitsCont"></section>
+            <section class = "fruit-form">
+                <form action="order.html" method="get">
+                    <label>Fruit 1: <input name="fruit1" type="text"></label>
+                    <label>Fruit 2: <input name="fruit2" type="text"></label>
+                    <label>Fruit 3:  <input name="fruit3" type="text"></label>
+                    <label><input name="hello" type="submit" value="OK"></label>
+                </form>        
+            </section>
+    </main>
+
+    
+    <footer class = "foot">
+        <div id = "media">
+            <a id="fb" href="https://facebook.com">
+                <img class="fb" src="images/facebook.png" alt="Facebook Logo">
+            </a>
+            <a id="insta" href="https://instagram.com">
+                <img class="insta" src="images/instagram.png" alt="Instagram Logo">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a id="logo_foot" href="index.html">
+                <img class="logof" src="images/logo.webp" alt="Bountiful Foods Logo">
+            </a>
+        </div>
+
+         <div class = contact>
+            <p> Email: info@cityofgilbert.com</p>
+            <p> Cell: 208-206-2881</p>
+            <p> Office Hours: 9am-5pm
+                Monday - Friday
+            </p>
+         </div>
+    
+    
+            <div class = "info">
+            <p>&copy; Bountiful Foods</p>
+            <p> Brandon Lythgoe</p>
+            <p> WDD230 Final Project</p>
+            
+            </div>
+        
+        <div id = "last"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
+        
+    </footer>
+</body>
+</html>
