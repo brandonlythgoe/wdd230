@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,10 @@
     <meta name="description" content = "Home Page For Bountiful Foods Website">
     <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel = "stylesheet" href = "./styles/main.css">
+    <link rel = "stylesheet" href = "./styles/small.css">
+    <link rel = "stylesheet" href = "./styles/medium.css">
     <script defer src="./scripts/thank-you.js" ></script>
+    <script defer src="./scripts/footer.js"></script>
     <title>Bountiful Foods Home Page</title>
 </head>
 <body>
@@ -21,7 +24,7 @@
             <a class="active"  href="order.html">Your Order</a>
             <a href="aboutus.html">About Us</a>
         </nav>
-        <div id = "media">
+        <div class = "media">
             <a id="fb" href="https://facebook.com">
                 <img class="fb" src="images/facebook.png" alt="Facebook Logo">
             </a>
@@ -34,60 +37,79 @@
         </div>
         
     </header>
+    <div>
+        <button id="hamburger-menu">
+            <span id="menu-closed">&equiv;</span>
+            <span class="material-symbols-outlined" id = "menu-open">
+                close
+            </span>
+        </button>
+    </div>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/smoothie.webp" alt="Smoothies">
+            <img id="hero-img" src="images/hero.webp" alt="Smoothies">
         </div>
-        <section id="hero-msg">
-            <h1>Bountiful Foods</h1>
-            <h4>Fresh Fruit Your Way </h4>
-        </section> 
-            <div class='button-box'>
-                <a class='fresh' href="fresh.html">Create your Smoothie!</a>
-            </div>
+        
     </div>
+    <section id="hero-msg">
+        <div >
+            <h1>Bountiful Foods</h1>
+            <h4>"Fresh Fruit Your Way" </h4>
+        </div>
+        
+        <div class='button-box'>
+            <a class='fresh' href="fresh.html">Create your Smoothie!</a>
+        </div>
+    </section> 
 
     <main>
         
-        <section>
-            <p>Fruit 1 <span id="fruitchoice1">></span></p>
-            <p>Fruit 2 <span id="fruitchoice2"></span></p>
-            <p>Fruit 3 <span id="fruitchoice3"></span></p>
+        <section class = "fruit-order">
+            <div class = "fruit-divs">
+                <h2> Your Custom Drink: </h2>
+                <p class ="fruit-choices">Fruit 1:  <span id="fruitchoice1">></span></p>
+                <p class ="fruit-choices">Fruit 2:  <span id="fruitchoice2">></span></p>
+                <p class ="fruit-choices">Fruit 3: <span id="fruitchoice3"></span></p>
+            </div>
+           
+            <div class = "fruit-divs">
+                <h2> Nutrition Facts: </h2>
+                <p class = "facts"> <span id="drink-nutrition"></span></p>
+                <p class = "facts"> <span id="drink-pro"></span></p>
+                <p class = "facts"> <span id="drink-fat"></span></p>
+                <p class = "facts"> <span id="drink-carbs"></span></p>
+                <p class = "facts"> <span id="drink-sugar"></span></p>
+            </div>
+          
         </section>
     </main>
     <footer class = "foot">
-        <div id = "media">
-            <a id="fb" href="https://facebook.com">
-                <img class="fb" src="images/facebook.png" alt="Facebook Logo">
-            </a>
-            <a id="insta" href="https://instagram.com">
-                <img class="insta" src="images/instagram.png" alt="Instagram Logo">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a id="logo_foot" href="index.html">
-                <img class="logof" src="images/logo.webp" alt="Bountiful Foods Logo">
-            </a>
-        </div>
+        <a id="logo_link-f" href="index.html">
+            <img class="logo-f" src="images/logo.webp" alt="Bountiful Foods Logo">
+        </a>
+        <nav class = "nav-f">
+            <a class = "nav-a-f" href="index.html">Home</a>
+            <a class = "nav-a-f"  href="fresh.html">Fresh</a>
+            <a class = "nav-a-f" href="order.html">Your Order</a>
+            <a class = "nav-a-f" href="aboutus.html">About Us</a>
+        </nav>
+     
 
          <div class = contact>
-            <p> Email: info@cityofgilbert.com</p>
-            <p> Cell: 208-206-2881</p>
-            <p> Office Hours: 9am-5pm
+            <p class = "contact-f"> Email: info@bountifulfoods.com</p>
+            <p class = "contact-f"> Cell: 208-206-2881</p>
+            <p class = "contact-f"> Office Hours: 9am-5pm
                 Monday - Friday
             </p>
          </div>
     
     
-            <div class = "info">
-            <p>&copy; Bountiful Foods</p>
-            <p> Brandon Lythgoe</p>
-            <p> WDD230 Final Project</p>
-            
-            </div>
+          
         
-        <div id = "last"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
+         <div class = "bottom"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
+            <p class ="bottom-p">&copy; Bountiful Foods     |</p>
+            <p class="bottom-p"> WDD230 Final Project </p>
+        </div>
         
     </footer>
 </body>

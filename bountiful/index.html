@@ -8,9 +8,14 @@
     <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel = "stylesheet" href = "./styles/main.css">
     <link rel = "stylesheet" href = "./styles/small.css">
+    <link rel = "stylesheet" href = "./styles/medium.css">
+    <script defer src="./scripts/lazy-load.js"></script>
     <script defer src="./scripts/weather.js"></script>
-   
-    <title>Bountiful Foods Home Page</title>
+    <script defer src="./scripts/footer.js"></script>
+    <script defer src="./scripts/hamburger.js"></script>
+    <script defer src="./scripts/indexorder.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Bountiful Foods Home Page</title> 
 </head>
 <body>
     <header>
@@ -34,7 +39,7 @@
                 <img src="images/twitter.png" alt="twitter icon">
             </a>
         </div>
-        
+      
     </header>
     <div>
         <button id="hamburger-menu">
@@ -44,37 +49,44 @@
             </span>
         </button>
     </div>
+    
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/smoothie.webp" alt="Smoothies">
+            <img id="hero-img" src="images/hero.webp" alt="Fruit Suckers">
         </div>
-        <section id="hero-msg">
-            <h1>Bountiful Foods</h1>
-            <h4>Fresh Fruit Your Way </h4>
-        </section> 
-            <div class='button-box'>
-                <a class='fresh' href="fresh.html">Create your Smoothie!</a>
-            </div>
+    
+            
     </div>
+    <section id="hero-msg">
+        <div >
+            <h1>Bountiful Foods</h1>
+            <h4>"Fresh Fruit Your Way" </h4>
+        </div>
+        
+        <div class='button-box'>
+            <a class='fresh' href="fresh.html">Create your Smoothie!</a>
+        </div>
+    </section> 
     <main>
       
         <div class = "smoothies">
             <div id = "blueberry"> 
                 <h3 class = "smoothie-h"> Blueberry Delight</h3>
-                <img class="smooothie-img" src="images/blueberry.webp" alt="Smoothies">
+                <img class = "smooothie-img" src= "./images/placeholder.png" data-src= "./images/blueberry.webp" alt="Blueberry Smoothie" >
                 <p class ="smoothie-p"> The Blueberry Delight Smoothie is a refreshing blend of
                      blueberries, fresh orange juice and  vanilla protein powder topped with
-                     whipped cream and our farm fresh blueberries</p>
+                     whipped cream and our farm fresh blueberries.</p>
             </div>
             <div id = "strawberry">
                 <h3 class ="smoothie-h"> Strawberry Dream </h3>
-                <img class="smooothie-img" src="images/strawberry.webp" alt="Smoothies">
-                <p class = "smoothie-p"> Strawberry</p>
+                <img class = "smooothie-img" src= "./images/placeholder.png" data-src= "./images/strawberry.webp" alt="Strawberry Smoothie" >
+                <p class = "smoothie-p"> Our Strawberry Dream Smoothie is crafted from our farm fresh Strawberries, 
+                    mixed with milk and bannas and topped with our house made whipped cream.</p>
             </div>
             <div id = "tropical">
                 <h3 class="smoothie-h"> Tropical blend </h3>
-                <img class="smooothie-img" src="images/tropical.webp" alt="Smoothies">
-                <p class="smoothie-p"> Tropical</p>
+                <img class = "smooothie-img" src= "./images/placeholder.png" data-src= "./images/tropical.webp" alt="Tropical Smoothie" >
+                <p class="smoothie-p"> Our Tropical blend is a to die for! A refreshing mix of fresh pineapple, raspberries, bannanas, and oranges, you will feel like you drifted off to a coastal island! </p>
             </div>
             
         </div>
@@ -82,29 +94,31 @@
 
 
             <div class = "order">
-                <h2> Your Order </h2>
-                <img id="order-img" src="images/order.webp" alt="Smoothie Blend">
+                <h2 class = "weather-headers"> Your Order </h2>
+                <img id = "order-img" src= "./images/placeholder.png" data-src= "./images/order.webp" alt="Unblended Smoothie" >
+                <p id ="orders"> Your Orders: <span id="order-count"> 0 </span></p>
             </div>
 
             <div class = "field-box"> 
-                <h2> Located In Beautiful Carlsbad California</h2>
-                 <img id = "field" src="images/beach.webp" alt="Carlsbad Coast">
-                <!-- <div class="overlay"> 
-                    <div class="text">Hello World</div>
-                </div> -->
+                <h2 class = "weather-headers"> Located In Beautiful Carlsbad California</h2>
+                 <img id = "field" src= "./images/placeholder.png" data-src= "./images/beach.webp" alt="Beach of Carlsbad California" >
+                 <p id ="california-p"> Bountiful Foods was founded here in Carlsbad California. We strive to serve the local community and all those who visit! Check out our <a id="about-us-link" href="aboutus.html">About Us</a> Page to learn more about our Company's history</p>
             </div>
     
             <div class="weather-a">
-                <h2> Weather </h2>
-                <img id="weather1" src="images/weather.png" alt="Weather icon">
+                <h2 class ="weather-headers"> Weather </h2>
+                <img id="weather1" src="images/weather.webp" alt="Weather icon">
                 <p id="description"></p>
                 <p>The Weather On <span id="date1"></span> in Carlsbad,California is <span id="current-temp"></span> &deg;F</p>
                 <p> Humidity <span id ="humidity">?</span>%</p>
-            
-                <h2> The Weather On <span id="date2"></span> in Carlsbad,California is <span id="current-temp2"></span> &deg;F </h2>
-                
-            
-                <h2> The Weather On <span id="date3"></span> in Carlsbad,California is <span id="current-temp3"></span> &deg;F</h2>
+
+                <img id="weather2" src="images/weather.webp" alt="Weather icon">
+                <p> The Weather On <span id="date2"></span> in Carlsbad,California is <span id="current-temp2"></span> &deg;F </p>
+                <p> Humidity <span id ="humidity2">?</span>%</p>
+
+                <img id="weather3" src="images/weather.webp" alt="Weather icon">
+                <p> The Weather On <span id="date3"></span> in Carlsbad,California is <span id="current-temp3"></span> &deg;F</p>
+                <p> Humidity <span id ="humidity3">?</span>%</p>
                 
                 
             </div>
@@ -116,38 +130,32 @@
 
     
     <footer class = "foot">
-        <div class= "media-foot">
-            <a href="https://facebook.com">
-                <img class="fb" src="images/facebook.png" alt="Facebook Logo">
-            </a>
-            <a href="https://instagram.com">
-                <img class="insta" src="images/instagram.png" alt="Instagram Logo">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-           
-        </div>
-        <div>
-            <a class="logo_foot" href="index.html">
-                <img class="logof" src="images/logo.webp" alt="Bountiful Foods Logo">
-            </a>
-        </div>
+        <a id="logo_link-f" href="index.html">
+            <img class="logo-f" src="images/logo.webp" alt="Bountiful Foods Logo">
+        </a>
+        <nav class = "nav-f">
+            <a class = "nav-a-f" href="index.html">Home</a>
+            <a class = "nav-a-f"  href="fresh.html">Fresh</a>
+            <a class = "nav-a-f" href="order.html">Your Order</a>
+            <a class = "nav-a-f" href="aboutus.html">About Us</a>
+        </nav>
+     
 
          <div class = contact>
-            <p> Cell: 208-206-2881</p>
-            <p> Office Hours: 9am-5pm
+            <p class = "contact-f"> Email: info@bountifulfoods.com</p>
+            <p class = "contact-f"> Cell: 208-206-2881</p>
+            <p class = "contact-f"> Office Hours: 9am-5pm
                 Monday - Friday
             </p>
-            <p>&copy; Bountiful Foods</p>
-            <p> Brandon Lythgoe</p>
-            <p> WDD230 Final Project</p>
-            
          </div>
     
     
+          
         
-        <div> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
+         <div class = "bottom"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
+            <p class ="bottom-p">&copy; Bountiful Foods     |</p>
+            <p class="bottom-p"> WDD230 Final Project </p>
+        </div>
         
     </footer>
 </body>

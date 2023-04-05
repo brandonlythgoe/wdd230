@@ -8,6 +8,8 @@
     <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel = "stylesheet" href = "./styles/main.css">
     <link rel = "stylesheet" href = "./styles/small.css">
+    <link rel = "stylesheet" href = "./styles/medium.css">
+    <script defer src="./scripts/footer.js"></script>
     <title>Bountiful Foods Home Page</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
             <a href="order.html">Your Order</a>
             <a class="active" href="aboutus.html">About Us</a>
         </nav>
-        <div id = "media">
+        <div class = "media">
             <a id="fb" href="https://facebook.com">
                 <img class="fb" src="images/facebook.png" alt="Facebook Logo">
             </a>
@@ -34,18 +36,30 @@
         </div>
         
     </header>
+    <div>
+        <button id="hamburger-menu">
+            <span id="menu-closed">&equiv;</span>
+            <span class="material-symbols-outlined" id = "menu-open">
+                close
+            </span>
+        </button>
+    </div>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/smoothie.webp" alt="Smoothies">
+            <img id="hero-img" src="images/hero.webp" alt="Fruit Suckers">
         </div>
-        <section id="hero-msg">
-            <h1>Bountiful Foods</h1>
-            <h4>Fresh Fruit Your Way </h4>
-        </section> 
-            <div class='button-box'>
-                <a class='fresh' href="fresh.html">Create your Smoothie!</a>
-            </div>
+       
     </div>
+    <section id="hero-msg">
+        <div >
+            <h1>Bountiful Foods</h1>
+            <h4>"Fresh Fruit Your Way" </h4>
+        </div>
+        
+        <div class='button-box'>
+            <a class='fresh' href="fresh.html">Create your Smoothie!</a>
+        </div>
+    </section> 
     <main>
         <section class = company>
             <div class = "companyimage" >
@@ -53,7 +67,7 @@
                 <img id = "house" src="images/house.webp" alt="House in a field">
                 <p class = "company-p"> Bountiful Foods began right here in this little home just outside Carslbad.
                      Trevor Smith and his wife Emma started to make delicious fresh fruit drinks out 
-                     of their home garden for freidns and family. Soon they realized just how unique it was to serve fresh organic fruit! 
+                     of their home garden for friends and family. Soon they realized just how unique it was to serve fresh organic fruit! 
                      They then started to sell their fruit and fruit drinks locally and 
                      year after year they slowly grew into what you now know as Bountiful Foods!</p>
             </div>
@@ -62,6 +76,7 @@
                 <h3 class = "company-i"> Mission Statement: Refresh residents of California with custom organic fruit drinks  </h3>
                 <h3 class = "company-i"> Slogan: "Fresh Fruit Your Way"</h3>
                 <h3 class = "company-i"> Phone Number: 208-206-2881</h3>
+                <h3 class = "company-i"> Email: info@bountifulfoods.com</h3>
                 <h3 class = "company-i"> Address: 3825 State St, Carlsbad, CA 92008 </h3>
                 <a id="map" href="https://www.google.com/maps/d/viewer?mid=1oYpFFQzcgSvUVdvd1dPcE9qIaWQ&ll=33.159297262994286%2C-117.33976174135591&z=15">
                     <img id = "map" src="images/map.webp" alt="Map Icon">
@@ -76,38 +91,32 @@
 
     
     <footer class = "foot">
-        <div id = "media">
-            <a id="fb" href="https://facebook.com">
-                <img class="fb" src="images/facebook.png" alt="Facebook Logo">
-            </a>
-            <a id="insta" href="https://instagram.com">
-                <img class="insta" src="images/instagram.png" alt="Instagram Logo">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a id="logo_foot" href="index.html">
-                <img class="logof" src="images/logo.webp" alt="Bountiful Foods Logo">
-            </a>
-        </div>
+        <a id="logo_link-f" href="index.html">
+            <img class="logo-f" src="images/logo.webp" alt="Bountiful Foods Logo">
+        </a>
+        <nav class = "nav-f">
+            <a class = "nav-a-f" href="index.html">Home</a>
+            <a class = "nav-a-f"  href="fresh.html">Fresh</a>
+            <a class = "nav-a-f" href="order.html">Your Order</a>
+            <a class = "nav-a-f" href="aboutus.html">About Us</a>
+        </nav>
+     
 
          <div class = contact>
-            <p> Email: info@cityofgilbert.com</p>
-            <p> Cell: 208-206-2881</p>
-            <p> Office Hours: 9am-5pm
+            <p class = "contact-f"> Email: info@bountifulfoods.com</p>
+            <p class = "contact-f"> Cell: 208-206-2881</p>
+            <p class = "contact-f"> Office Hours: 9am-5pm
                 Monday - Friday
             </p>
          </div>
     
     
-            <div class = "info">
-            <p>&copy; Bountiful Foods</p>
-            <p> Brandon Lythgoe</p>
-            <p> WDD230 Final Project</p>
-            
-            </div>
+          
         
-        <div id = "last"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p></div>
+         <div class = "bottom"> <hr id="line"/><p>&copy; <span id="currentyear"></span> | Brandon Lythgoe | Rexburg, ID | Last Updated: <span id="lastmodified"></span></p>
+            <p class ="bottom-p">&copy; Bountiful Foods     |</p>
+            <p class="bottom-p"> WDD230 Final Project </p>
+        </div>
         
     </footer>
 </body>
