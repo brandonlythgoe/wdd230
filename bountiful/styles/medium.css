@@ -1,10 +1,27 @@
-@media screen and (max-width:1800px)
+@media screen and (max-width:1750px)
 {
-    
+    nav a{
+      padding: .5rem;
+    }
     #house{
         width: 70%;
       }
       #family{
         width: 70%;
       }
+      .smoothies{
+        display: block;
+        text-align: center;
+        border: 5px solid black; 
+        margin: 2rem;
+        
+      }
+    
+      .weather-box{
+        display: block;
+        text-align: center;
+        border: 5px solid black;
+        margin: 2rem;
+      }
+        
 }
